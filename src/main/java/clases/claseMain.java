@@ -3,10 +3,9 @@ package clases;
 public class ClaseMain {
     public static void main(String[] args) {
 
-        persona P1 = new persona();
+       ventasComida menu = new ventasComida();
 
-        P1.pedirDatos();
-        P1.mostrarDatos();
-
+        menu.mostrarMenu();
+        menu.escogerMenu();
     }
 }
